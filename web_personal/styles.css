@@ -1,0 +1,20 @@
+body{
+  background-color: #525558;
+  color: #ffbf75;
+}
+
+h1{
+  color: #75c7ff;
+  font-size: 60px;
+}
+
+p{
+  font-size: 20px;
+}
+
+a{
+  color: #525558;
+  padding: 14px 12px;
+  background-color: #ffa43a;
+  border-radius: 5px;
+}
