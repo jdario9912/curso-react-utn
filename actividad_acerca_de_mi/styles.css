@@ -1,0 +1,96 @@
+/* 
+#ebb7ce
+#b38471
+#5c5e36
+#1d3d33
+#0c181c
+*/
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c181c;
+  color: #f1f1f1;
+  padding-top: 30px 30px 0;
+  margin: 0 auto;
+  max-width: 970px;
+
+  box-sizing: border-box;
+
+}
+
+header {
+  background-color: #b38471;
+  text-align: center;
+}
+
+#info-personal,
+#habilidades {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ebb7ce;
+}
+
+#info-personal h2,
+#habilidades h2 {
+  font-size: 24px;
+}
+
+#habilidades ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: #0c181c;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+  
+  #info-personal,
+  #habilidades {
+    border-radius: 15px;
+    padding: 10px;
+  }
+ 
+  h1,
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 20px;
+  }
+  
+  h1,
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  header{
+    border-radius: 15px;
+  }
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 30px;
+  }
+  
+  h1,
+  h2 {
+    font-size: 28px;
+  }
+}
